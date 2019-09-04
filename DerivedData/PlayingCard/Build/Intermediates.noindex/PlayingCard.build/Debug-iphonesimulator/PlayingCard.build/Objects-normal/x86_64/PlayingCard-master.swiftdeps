@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "7219f7c1c46d951b2de4399eef65c2b7"
+build_time: [1567607180, 130550000]
+inputs:
+  "/Users/walkee28/Developer/PlayingCard/PlayingCard/ViewController.swift": [1567607175, 379232696]
+  "/Users/walkee28/Developer/PlayingCard/PlayingCard/AppDelegate.swift": [1567607175, 369712970]
