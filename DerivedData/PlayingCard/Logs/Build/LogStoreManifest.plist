@@ -5,6 +5,39 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>E862212A-A7FB-4A58-8A9C-DE001321CD0F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E862212A-A7FB-4A58-8A9C-DE001321CD0F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589305301.24799597</real>
+			<key>timeStoppedRecording</key>
+			<real>589305303.89375603</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>E862212A-A7FB-4A58-8A9C-DE001321CD0F</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
