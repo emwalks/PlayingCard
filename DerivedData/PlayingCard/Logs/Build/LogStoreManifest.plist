@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1B7866FA-0866-4A12-9BBD-193806A3A50B</key>
+		<key>AB1EC316-5B33-4D9C-9EE6-07112147B7BD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1B7866FA-0866-4A12-9BBD-193806A3A50B.xcactivitylog</string>
+			<string>AB1EC316-5B33-4D9C-9EE6-07112147B7BD.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,15 +30,15 @@
 			<key>signature</key>
 			<string>Build PlayingCard</string>
 			<key>timeStartedRecording</key>
-			<real>589371365.35311902</real>
+			<real>589391082.52481401</real>
 			<key>timeStoppedRecording</key>
-			<real>589371366.18488002</real>
+			<real>589391083.09375799</real>
 			<key>title</key>
 			<string>Build PlayingCard</string>
 			<key>uniqueIdentifier</key>
-			<string>1B7866FA-0866-4A12-9BBD-193806A3A50B</string>
+			<string>AB1EC316-5B33-4D9C-9EE6-07112147B7BD</string>
 		</dict>
-		<key>E7EC96BA-652D-4179-96B8-CCB43BDD3B7C</key>
+		<key>BB9266D8-BD94-4E92-9EC2-B838AA7E1ED9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -47,7 +47,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E7EC96BA-652D-4179-96B8-CCB43BDD3B7C.xcactivitylog</string>
+			<string>BB9266D8-BD94-4E92-9EC2-B838AA7E1ED9.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -62,15 +62,15 @@
 			<key>signature</key>
 			<string>Build PlayingCard</string>
 			<key>timeStartedRecording</key>
-			<real>589371250.08250797</real>
+			<real>589391205.88850403</real>
 			<key>timeStoppedRecording</key>
-			<real>589371253.48688197</real>
+			<real>589391206.99185205</real>
 			<key>title</key>
 			<string>Build PlayingCard</string>
 			<key>uniqueIdentifier</key>
-			<string>E7EC96BA-652D-4179-96B8-CCB43BDD3B7C</string>
+			<string>BB9266D8-BD94-4E92-9EC2-B838AA7E1ED9</string>
 		</dict>
-		<key>E862212A-A7FB-4A58-8A9C-DE001321CD0F</key>
+		<key>E0D4E9FA-529C-4FCA-8A68-1914A2424595</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -79,7 +79,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E862212A-A7FB-4A58-8A9C-DE001321CD0F.xcactivitylog</string>
+			<string>E0D4E9FA-529C-4FCA-8A68-1914A2424595.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -94,13 +94,13 @@
 			<key>signature</key>
 			<string>Build PlayingCard</string>
 			<key>timeStartedRecording</key>
-			<real>589305301.24799597</real>
+			<real>589391111.51454604</real>
 			<key>timeStoppedRecording</key>
-			<real>589305303.89375603</real>
+			<real>589391111.67230105</real>
 			<key>title</key>
 			<string>Build PlayingCard</string>
 			<key>uniqueIdentifier</key>
-			<string>E862212A-A7FB-4A58-8A9C-DE001321CD0F</string>
+			<string>E0D4E9FA-529C-4FCA-8A68-1914A2424595</string>
 		</dict>
 	</dict>
 </dict>
