@@ -74,6 +74,7 @@ depends-member:
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["11PlayingCardAAV", "deinit"]
 - !private ["11PlayingCard0aB4DeckV", "draw"]
 - ["11PlayingCard0aB4DeckV", "init"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
@@ -162,6 +163,7 @@ depends-nominal:
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "11PlayingCardAAV"
 - "11PlayingCard0aB4DeckV"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"

@@ -6,6 +6,70 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>1B7866FA-0866-4A12-9BBD-193806A3A50B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1B7866FA-0866-4A12-9BBD-193806A3A50B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589371365.35311902</real>
+			<key>timeStoppedRecording</key>
+			<real>589371366.18488002</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>1B7866FA-0866-4A12-9BBD-193806A3A50B</string>
+		</dict>
+		<key>E7EC96BA-652D-4179-96B8-CCB43BDD3B7C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E7EC96BA-652D-4179-96B8-CCB43BDD3B7C.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589371250.08250797</real>
+			<key>timeStoppedRecording</key>
+			<real>589371253.48688197</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>E7EC96BA-652D-4179-96B8-CCB43BDD3B7C</string>
+		</dict>
 		<key>E862212A-A7FB-4A58-8A9C-DE001321CD0F</key>
 		<dict>
 			<key>className</key>

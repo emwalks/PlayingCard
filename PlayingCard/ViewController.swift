@@ -14,9 +14,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
+        
         //nice place to write some quick testing code
         
+        //this just pulls 10 cards out
+        // it is an if let because its an optional (cards could be empty)
         for _ in 1...10 {
             if let card = deck.draw() {
                 print ("\(card)")

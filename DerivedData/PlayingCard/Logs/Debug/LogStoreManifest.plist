@@ -6,6 +6,70 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>1D138566-443C-410A-9316-7BDA559660A3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1D138566-443C-410A-9316-7BDA559660A3.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589371366.09974694</real>
+			<key>timeStoppedRecording</key>
+			<real>589371396.64902496</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>1D138566-443C-410A-9316-7BDA559660A3</string>
+		</dict>
+		<key>55D9B4C5-896F-4A64-B15A-5902026DAE47</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>55D9B4C5-896F-4A64-B15A-5902026DAE47.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589371253.40773904</real>
+			<key>timeStoppedRecording</key>
+			<real>589371356.16070199</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>55D9B4C5-896F-4A64-B15A-5902026DAE47</string>
+		</dict>
 		<key>62B078E3-2195-4F7A-AB1C-39ED2DE5B4BF</key>
 		<dict>
 			<key>className</key>
