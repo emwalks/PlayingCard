@@ -37,6 +37,8 @@ class PlayingCardView: UIView {
         path.stroke()
         path.fill()
         
+        
+        
         //when you rotate you end up with an oval! Want to recall when bounds change
         // in Main.storyboard we set the content mode in the attribute inspector for our view to to redraw
     }
