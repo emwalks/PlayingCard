@@ -6,32 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0D7A10DF-13F2-4C5C-90D6-61A363D58B07</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
-			<key>fileName</key>
-			<string>0D7A10DF-13F2-4C5C-90D6-61A363D58B07.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>signature</key>
-			<string>Update Signing</string>
-			<key>timeStartedRecording</key>
-			<real>589366631.23726296</real>
-			<key>timeStoppedRecording</key>
-			<real>589366633.28542602</real>
-			<key>title</key>
-			<string>Update Signing</string>
-			<key>uniqueIdentifier</key>
-			<string>0D7A10DF-13F2-4C5C-90D6-61A363D58B07</string>
-		</dict>
 		<key>720A149F-AA45-4636-B07C-EC0E8A65A78B</key>
 		<dict>
 			<key>className</key>
@@ -57,6 +31,32 @@
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
 			<string>720A149F-AA45-4636-B07C-EC0E8A65A78B</string>
+		</dict>
+		<key>B3EB95C1-4746-46D7-9EC3-4713C9F5332F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
+			<key>fileName</key>
+			<string>B3EB95C1-4746-46D7-9EC3-4713C9F5332F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Update Signing</string>
+			<key>timeStartedRecording</key>
+			<real>589467757.87267399</real>
+			<key>timeStoppedRecording</key>
+			<real>589467759.14965904</real>
+			<key>title</key>
+			<string>Update Signing</string>
+			<key>uniqueIdentifier</key>
+			<string>B3EB95C1-4746-46D7-9EC3-4713C9F5332F</string>
 		</dict>
 	</dict>
 </dict>

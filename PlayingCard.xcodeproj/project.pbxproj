@@ -14,6 +14,7 @@
 		98614E4B232001080015C4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98614E49232001080015C4EB /* LaunchScreen.storyboard */; };
 		98614E5423200A5D0015C4EB /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98614E5323200A5D0015C4EB /* PlayingCard.swift */; };
 		98614E56232013A80015C4EB /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98614E55232013A80015C4EB /* PlayingCardDeck.swift */; };
+		98964EC723216806009486F8 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98964EC623216806009486F8 /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		98614E4C232001080015C4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98614E5323200A5D0015C4EB /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		98614E55232013A80015C4EB /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		98964EC623216806009486F8 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				98614E42232001070015C4EB /* ViewController.swift */,
 				98614E5323200A5D0015C4EB /* PlayingCard.swift */,
+				98964EC623216806009486F8 /* PlayingCardView.swift */,
 				98614E55232013A80015C4EB /* PlayingCardDeck.swift */,
 				98614E44232001070015C4EB /* Main.storyboard */,
 				98614E47232001080015C4EB /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				98614E43232001070015C4EB /* ViewController.swift in Sources */,
 				98614E56232013A80015C4EB /* PlayingCardDeck.swift in Sources */,
 				98614E5423200A5D0015C4EB /* PlayingCard.swift in Sources */,
+				98964EC723216806009486F8 /* PlayingCardView.swift in Sources */,
 				98614E41232001070015C4EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

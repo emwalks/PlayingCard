@@ -1,8 +1,9 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "7219f7c1c46d951b2de4399eef65c2b7"
-build_time: [1567698405, 934652000]
+build_time: [1567777262, 74683000]
 inputs:
   "/Users/walkee28/Developer/PlayingCard/PlayingCard/ViewController.swift": [1567697701, 262329872]
   "/Users/walkee28/Developer/PlayingCard/PlayingCard/PlayingCardDeck.swift": [1567697472, 83881358]
-  "/Users/walkee28/Developer/PlayingCard/PlayingCard/PlayingCard.swift": [1567698399, 816308920]
+  "/Users/walkee28/Developer/PlayingCard/PlayingCard/PlayingCard.swift": [1567698832, 554217036]
+  "/Users/walkee28/Developer/PlayingCard/PlayingCard/PlayingCardView.swift": [1567777261, 997099894]
   "/Users/walkee28/Developer/PlayingCard/PlayingCard/Supporting Files/AppDelegate.swift": [1567607175, 369712970]

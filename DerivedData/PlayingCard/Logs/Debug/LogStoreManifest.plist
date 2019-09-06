@@ -6,6 +6,166 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>02CD631C-116F-4521-8B4C-221A76B80287</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>02CD631C-116F-4521-8B4C-221A76B80287.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468353.95607805</real>
+			<key>timeStoppedRecording</key>
+			<real>589468405.906991</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>02CD631C-116F-4521-8B4C-221A76B80287</string>
+		</dict>
+		<key>10604950-6291-48C0-A099-82C7B536234C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>10604950-6291-48C0-A099-82C7B536234C.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468291.16440403</real>
+			<key>timeStoppedRecording</key>
+			<real>589468350.72645402</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>10604950-6291-48C0-A099-82C7B536234C</string>
+		</dict>
+		<key>11CFD43D-9E02-433D-A43D-BCE6585080E8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>11CFD43D-9E02-433D-A43D-BCE6585080E8.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468820.31910205</real>
+			<key>timeStoppedRecording</key>
+			<real>589468930.547032</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>11CFD43D-9E02-433D-A43D-BCE6585080E8</string>
+		</dict>
+		<key>15B2E95F-A99C-4102-82ED-DC85A743F243</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>15B2E95F-A99C-4102-82ED-DC85A743F243.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468785.03923094</real>
+			<key>timeStoppedRecording</key>
+			<real>589468818.66667604</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>15B2E95F-A99C-4102-82ED-DC85A743F243</string>
+		</dict>
+		<key>1E2E90C4-A8E3-4A81-AB47-BEB5D7BB182F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1E2E90C4-A8E3-4A81-AB47-BEB5D7BB182F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468954.77744198</real>
+			<key>timeStoppedRecording</key>
+			<real>589469087.35663605</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>1E2E90C4-A8E3-4A81-AB47-BEB5D7BB182F</string>
+		</dict>
 		<key>327B155C-246A-4A41-AD8C-E985A7C55A78</key>
 		<dict>
 			<key>className</key>
@@ -38,7 +198,7 @@
 			<key>uniqueIdentifier</key>
 			<string>327B155C-246A-4A41-AD8C-E985A7C55A78</string>
 		</dict>
-		<key>8C879A9E-FF4B-48E1-8195-E590685F1979</key>
+		<key>3F8E3F5A-C39F-4F58-AE48-AC21A06CE5B0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -47,7 +207,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8C879A9E-FF4B-48E1-8195-E590685F1979.xcactivitylog</string>
+			<string>3F8E3F5A-C39F-4F58-AE48-AC21A06CE5B0.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -62,15 +222,15 @@
 			<key>signature</key>
 			<string>Debug PlayingCard</string>
 			<key>timeStartedRecording</key>
-			<real>589391083.02239203</real>
+			<real>589469110.59927702</real>
 			<key>timeStoppedRecording</key>
-			<real>589391086.19785702</real>
+			<real>589469152.16030502</real>
 			<key>title</key>
 			<string>Debug PlayingCard</string>
 			<key>uniqueIdentifier</key>
-			<string>8C879A9E-FF4B-48E1-8195-E590685F1979</string>
+			<string>3F8E3F5A-C39F-4F58-AE48-AC21A06CE5B0</string>
 		</dict>
-		<key>A28F0CC7-8EB1-4DE6-8681-BA0F2B9D6B68</key>
+		<key>74D8062F-927F-4325-8647-F30AD745E1E9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -79,7 +239,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A28F0CC7-8EB1-4DE6-8681-BA0F2B9D6B68.xcactivitylog</string>
+			<string>74D8062F-927F-4325-8647-F30AD745E1E9.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -94,13 +254,109 @@
 			<key>signature</key>
 			<string>Debug PlayingCard</string>
 			<key>timeStartedRecording</key>
-			<real>589391111.59863698</real>
+			<real>589469153.81372702</real>
 			<key>timeStoppedRecording</key>
-			<real>589391202.318995</real>
+			<real>589469428.15499401</real>
 			<key>title</key>
 			<string>Debug PlayingCard</string>
 			<key>uniqueIdentifier</key>
-			<string>A28F0CC7-8EB1-4DE6-8681-BA0F2B9D6B68</string>
+			<string>74D8062F-927F-4325-8647-F30AD745E1E9</string>
+		</dict>
+		<key>7F2E6C01-B9A2-48A3-B88F-55B067C02553</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7F2E6C01-B9A2-48A3-B88F-55B067C02553.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468412.87952006</real>
+			<key>timeStoppedRecording</key>
+			<real>589468422.30352294</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>7F2E6C01-B9A2-48A3-B88F-55B067C02553</string>
+		</dict>
+		<key>8412C385-0004-4212-86B1-62AF60D8C22B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8412C385-0004-4212-86B1-62AF60D8C22B.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589469088.11621797</real>
+			<key>timeStoppedRecording</key>
+			<real>589469109.04734099</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>8412C385-0004-4212-86B1-62AF60D8C22B</string>
+		</dict>
+		<key>C75F8B71-0A47-41E6-96E8-2A908ADB81FC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C75F8B71-0A47-41E6-96E8-2A908ADB81FC.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589470064.07182097</real>
+			<key>timeStoppedRecording</key>
+			<real>589470183.24400902</real>
+			<key>title</key>
+			<string>Debug PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>C75F8B71-0A47-41E6-96E8-2A908ADB81FC</string>
 		</dict>
 	</dict>
 </dict>

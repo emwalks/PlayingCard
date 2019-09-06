@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>AB1EC316-5B33-4D9C-9EE6-07112147B7BD</key>
+		<key>0F9B50AE-1F9E-4EE8-9606-21AD16F713B6</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AB1EC316-5B33-4D9C-9EE6-07112147B7BD.xcactivitylog</string>
+			<string>0F9B50AE-1F9E-4EE8-9606-21AD16F713B6.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,13 +30,205 @@
 			<key>signature</key>
 			<string>Build PlayingCard</string>
 			<key>timeStartedRecording</key>
-			<real>589391082.52481401</real>
+			<real>589468954.067837</real>
 			<key>timeStoppedRecording</key>
-			<real>589391083.09375799</real>
+			<real>589468954.82772994</real>
 			<key>title</key>
 			<string>Build PlayingCard</string>
 			<key>uniqueIdentifier</key>
-			<string>AB1EC316-5B33-4D9C-9EE6-07112147B7BD</string>
+			<string>0F9B50AE-1F9E-4EE8-9606-21AD16F713B6</string>
+		</dict>
+		<key>225A8A8F-E75C-4646-AFF8-2D10DF365A41</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>225A8A8F-E75C-4646-AFF8-2D10DF365A41.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468784.24818695</real>
+			<key>timeStoppedRecording</key>
+			<real>589468785.08240199</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>225A8A8F-E75C-4646-AFF8-2D10DF365A41</string>
+		</dict>
+		<key>6A73852F-B34F-483E-AD30-99601ACBCE67</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6A73852F-B34F-483E-AD30-99601ACBCE67.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589470061.98655105</real>
+			<key>timeStoppedRecording</key>
+			<real>589470064.13984501</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>6A73852F-B34F-483E-AD30-99601ACBCE67</string>
+		</dict>
+		<key>6B3F47E7-E4E8-4CD6-B531-473D08F7DD34</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6B3F47E7-E4E8-4CD6-B531-473D08F7DD34.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468280.70131302</real>
+			<key>timeStoppedRecording</key>
+			<real>589468281.081967</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>6B3F47E7-E4E8-4CD6-B531-473D08F7DD34</string>
+		</dict>
+		<key>95FE302D-5A19-47D6-8F3C-DC232B8B4B59</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>95FE302D-5A19-47D6-8F3C-DC232B8B4B59.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468353.11686599</real>
+			<key>timeStoppedRecording</key>
+			<real>589468354.01101804</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>95FE302D-5A19-47D6-8F3C-DC232B8B4B59</string>
+		</dict>
+		<key>9B0243F7-36DC-4347-8AFA-C9F6981B3FC2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9B0243F7-36DC-4347-8AFA-C9F6981B3FC2.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468412.13458395</real>
+			<key>timeStoppedRecording</key>
+			<real>589468412.93143702</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>9B0243F7-36DC-4347-8AFA-C9F6981B3FC2</string>
+		</dict>
+		<key>AC303D95-F10D-4A85-A87E-CA2DF4EDA06C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AC303D95-F10D-4A85-A87E-CA2DF4EDA06C.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589469087.25550997</real>
+			<key>timeStoppedRecording</key>
+			<real>589469088.17209005</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>AC303D95-F10D-4A85-A87E-CA2DF4EDA06C</string>
 		</dict>
 		<key>BB9266D8-BD94-4E92-9EC2-B838AA7E1ED9</key>
 		<dict>
@@ -70,7 +262,7 @@
 			<key>uniqueIdentifier</key>
 			<string>BB9266D8-BD94-4E92-9EC2-B838AA7E1ED9</string>
 		</dict>
-		<key>E0D4E9FA-529C-4FCA-8A68-1914A2424595</key>
+		<key>DF57A220-EC80-4F19-8C51-D1B3A590285F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -79,7 +271,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E0D4E9FA-529C-4FCA-8A68-1914A2424595.xcactivitylog</string>
+			<string>DF57A220-EC80-4F19-8C51-D1B3A590285F.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -94,13 +286,109 @@
 			<key>signature</key>
 			<string>Build PlayingCard</string>
 			<key>timeStartedRecording</key>
-			<real>589391111.51454604</real>
+			<real>589469153.12056005</real>
 			<key>timeStoppedRecording</key>
-			<real>589391111.67230105</real>
+			<real>589469153.87152696</real>
 			<key>title</key>
 			<string>Build PlayingCard</string>
 			<key>uniqueIdentifier</key>
-			<string>E0D4E9FA-529C-4FCA-8A68-1914A2424595</string>
+			<string>DF57A220-EC80-4F19-8C51-D1B3A590285F</string>
+		</dict>
+		<key>EC533287-79E5-4651-9B40-5B29D2CC9139</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EC533287-79E5-4651-9B40-5B29D2CC9139.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468289.17249703</real>
+			<key>timeStoppedRecording</key>
+			<real>589468291.21621299</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>EC533287-79E5-4651-9B40-5B29D2CC9139</string>
+		</dict>
+		<key>ED944DEA-1CD0-477E-9773-CF1D682019F2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ED944DEA-1CD0-477E-9773-CF1D682019F2.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589469109.90790498</real>
+			<key>timeStoppedRecording</key>
+			<real>589469110.65056098</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>ED944DEA-1CD0-477E-9773-CF1D682019F2</string>
+		</dict>
+		<key>EFCE591B-2A4F-4B02-9F74-9F3F1A7C7F2F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EFCE591B-2A4F-4B02-9F74-9F3F1A7C7F2F.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PlayingCard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PlayingCard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PlayingCard</string>
+			<key>timeStartedRecording</key>
+			<real>589468819.64403999</real>
+			<key>timeStoppedRecording</key>
+			<real>589468820.37586701</real>
+			<key>title</key>
+			<string>Build PlayingCard</string>
+			<key>uniqueIdentifier</key>
+			<string>EFCE591B-2A4F-4B02-9F74-9F3F1A7C7F2F</string>
 		</dict>
 	</dict>
 </dict>

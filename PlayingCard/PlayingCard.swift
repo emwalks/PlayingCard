@@ -6,7 +6,7 @@
 //  Copyright © 2019 Emma Walker - TVandMobile Platforms - Core Engineering. All rights reserved.
 //
 
-// this is my model
+// this is my model along with PlayingCardDeck
 
 import Foundation
 
