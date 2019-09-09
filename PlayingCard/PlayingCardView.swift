@@ -58,6 +58,12 @@ class PlayingCardView: UIView
         label.isHidden = !isFaceUp
     }
     
+    //this is to update view when e.g. the slider in settings updates
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        setNeedsDisplay()
+        setNeedsLayout()
+    }
+    
     //this is like autolayout but in code for our subviews
     //it is a function that is called eventually by setNeedsLayout() {similar to draw(_ Rect) and setNeedsDisplay()} which we are now overridding (custom sub view)
     // in a subview bounds is where we draw
