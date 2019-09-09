@@ -79,8 +79,42 @@ class PlayingCardView: UIView
     
 }
 
-//TODO: pick up at 30 minutes extension
+// Extension with useful utilities
+extension PlayingCardView {
+    
+    /// Ratios that determine the card's size
+    private struct SizeRatio {
+        static let cornerFontSizeToBoundsHeight: CGFloat = 0.085
+        static let cornerRadiusToBoundsHeight: CGFloat = 0.06
+        static let cornerOffsetToCornerRadius: CGFloat = 0.33
+        static let faceCardImageSizeToBoundsSize: CGFloat = 0.95
+    }
+    
+    /// Corner radius
+    private var cornerRadius: CGFloat {
+        return bounds.size.height * SizeRatio.cornerRadiusToBoundsHeight
+    }
+    
+    /// Corner offset
+    private var cornerOffset: CGFloat {
+        return cornerRadius * SizeRatio.cornerOffsetToCornerRadius
+    }
+    
+    /// The font size for the corner text
+    private var cornerFontSize: CGFloat {
+        return bounds.size.height * SizeRatio.cornerFontSizeToBoundsHeight
+    }
+    
+    /// Get the string-representation of the current rank
+    private var rankString: String {
+        switch rank {
+        case 1: return "A"
+        case 2...10: return String(rank)
+        case 11: return "J"
+        case 12: return "Q"
+        case 13: return "K"
+        default: return "?"
+        }
+    }
+}
 
-//extension PlayingCardView {
-//
-//}
