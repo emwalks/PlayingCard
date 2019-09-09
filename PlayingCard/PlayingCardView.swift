@@ -35,7 +35,7 @@ class PlayingCardView: UIView
     // \n is new line in ASCII
     // need to extend playingcardview so that rank gives out a string
     private var cornerString: NSAttributedString {
-        return centeredAttributedString(String(rank)+"\n"+suit, fontSize: 16.0)
+        return centeredAttributedString(rankString+"\n"+suit, fontSize: 16.0)
     }
     
     lazy private var upperLeftCornerLabel = createCornerLabel()
@@ -82,7 +82,7 @@ class PlayingCardView: UIView
 // Extension with useful utilities
 extension PlayingCardView {
     
-    /// Ratios that determine the card's size
+    // Ratios that determine the card's size
     private struct SizeRatio {
         static let cornerFontSizeToBoundsHeight: CGFloat = 0.085
         static let cornerRadiusToBoundsHeight: CGFloat = 0.06
@@ -90,22 +90,19 @@ extension PlayingCardView {
         static let faceCardImageSizeToBoundsSize: CGFloat = 0.95
     }
     
-    /// Corner radius
     private var cornerRadius: CGFloat {
         return bounds.size.height * SizeRatio.cornerRadiusToBoundsHeight
     }
     
-    /// Corner offset
     private var cornerOffset: CGFloat {
         return cornerRadius * SizeRatio.cornerOffsetToCornerRadius
     }
     
-    /// The font size for the corner text
     private var cornerFontSize: CGFloat {
         return bounds.size.height * SizeRatio.cornerFontSizeToBoundsHeight
     }
     
-    /// Get the string-representation of the current rank
+    // Gets the string representation of the current rank
     private var rankString: String {
         switch rank {
         case 1: return "A"
