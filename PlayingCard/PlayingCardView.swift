@@ -13,7 +13,7 @@ class PlayingCardView: UIView
     // here we have defined rank and suit in a different way to the model - which is fine
     // it is the controllers job to interpret!
     // the didSet updates the drawing (setNeedsDisplay) and the subviews (setNeedsLayout) when these vars get updated
-    var rank: Int = 5 { didSet {setNeedsDisplay(); setNeedsLayout() } }
+    var rank: Int = 11 { didSet {setNeedsDisplay(); setNeedsLayout() } }
     var suit: String = "♥️" { didSet {setNeedsDisplay(); setNeedsLayout() } }
     var isFaceUp: Bool = true { didSet {setNeedsDisplay(); setNeedsLayout() } }
     
@@ -104,12 +104,10 @@ class PlayingCardView: UIView
         UIColor.white.setFill()
         roundedRect.fill()
         
-        //now going to add the corners (rank and suit) using a UILabel
-        //could also be done with NSattributed string in draw rect
-        //learning about subviews, fonts
-        
-        
-        
+        //this will grab the image in assets by name and zooms based on parameters
+        if let faceCardImage = UIImage(named: rankString+suit) {
+            faceCardImage.draw(in: bounds.zoom(by: SizeRatio.faceCardImageSizeToBoundsSize))
+        }
         
     }
     
@@ -127,7 +125,7 @@ extension PlayingCardView {
         static let cornerFontSizeToBoundsHeight: CGFloat = 0.085
         static let cornerRadiusToBoundsHeight: CGFloat = 0.06
         static let cornerOffsetToCornerRadius: CGFloat = 0.33
-        static let faceCardImageSizeToBoundsSize: CGFloat = 0.75
+        static let faceCardImageSizeToBoundsSize: CGFloat = 0.6
     }
     
     private var cornerRadius: CGFloat {
