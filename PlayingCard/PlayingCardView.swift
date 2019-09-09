@@ -43,18 +43,49 @@ class PlayingCardView: UIView
     
     private func createCornerLabel() -> UILabel {
         let label = UILabel()
-        label.numberOfLines = 0
+        label.numberOfLines = 0 // by setting 0 we are saying use as many lines as required
         addSubview(label)
         return label
     }
     
+    private func configureCornerLabel(_ label: UILabel) {
+        label.attributedText = cornerString
+        //this is a trick to use with size to fit method (which is a label method) to clear out any frame.sizing prior to use
+        label.frame.size = CGSize.zero
+        label.sizeToFit()
+        
+        //we only draw these if the card isFaceUp
+        label.isHidden = !isFaceUp
+    }
+    
     //this is like autolayout but in code for our subviews
     //it is a function that is called eventually by setNeedsLayout() {similar to draw(_ Rect) and setNeedsDisplay()} which we are now overridding (custom sub view)
+    // in a subview bounds is where we draw
+    // and frame is what positions it
     
     override func layoutSubviews() {
         super.layoutSubviews()
         
+        configureCornerLabel(upperLeftCornerLabel)
         
+        //need to move these labels to the right place
+        upperLeftCornerLabel.frame.origin  = bounds.origin.offsetBy(dx: cornerOffset, dy: cornerOffset)
+        
+        configureCornerLabel(lowerRightCornerLabel)
+        //need to invert the number and rank
+        //every view in iOS has a var called transform (affine transform = scale, translation, rotation pixel wise)
+        //cant just roate by pi radians
+        //It rotates around the subviews' origin (top LH corner, not centre of object) so also need a translate
+        //here we translate by whole width and height
+        //could also find centre and rotate and translate again
+        
+        lowerRightCornerLabel.transform = CGAffineTransform.identity.translatedBy(x: lowerRightCornerLabel.frame.size.width, y: lowerRightCornerLabel.frame.size.height)
+            .rotated(by: CGFloat.pi)
+        
+        //the lower right positioning is a bit trickier. Go to max and transform back 2 steps:
+        lowerRightCornerLabel.frame.origin = CGPoint(x: bounds.maxX, y: bounds.maxY)
+            .offsetBy(dx: -cornerOffset, dy: -cornerOffset)
+            .offsetBy(dx: -lowerRightCornerLabel.frame.size.width, dy: -lowerRightCornerLabel.frame.size.height)
         
     }
     
