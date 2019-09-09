@@ -11,8 +11,8 @@ import UIKit
 class PlayingCardView: UIView
 {
     // here we have defined rank and suit in a different way to the model - which is fine
-    //it is the controllers job to interpret!
-    //the didSet updates the drawing (setNeedsDisplay) and the subviews (setNeedsLayout) when these vars get updated
+    // it is the controllers job to interpret!
+    // the didSet updates the drawing (setNeedsDisplay) and the subviews (setNeedsLayout) when these vars get updated
     var rank: Int = 5 { didSet {setNeedsDisplay(); setNeedsLayout() } }
     var suit: String = "♥️" { didSet {setNeedsDisplay(); setNeedsLayout() } }
     var isFaceUp: Bool = true { didSet {setNeedsDisplay(); setNeedsLayout() } }
@@ -35,7 +35,7 @@ class PlayingCardView: UIView
     // \n is new line in ASCII
     // need to extend playingcardview so that rank gives out a string
     private var cornerString: NSAttributedString {
-        return centeredAttributedString(rankString+"\n"+suit, fontSize: 16.0)
+        return centeredAttributedString(rankString+"\n"+suit, fontSize: cornerFontSize)
     }
     
     lazy private var upperLeftCornerLabel = createCornerLabel()
@@ -62,7 +62,7 @@ class PlayingCardView: UIView
         
         //our card is going to be a rounded rect and we have clipped everything else into the rounded rect
         
-        let roundedRect = UIBezierPath(roundedRect: bounds, cornerRadius: 16.0)
+        let roundedRect = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius)
         roundedRect.addClip()
         UIColor.white.setFill()
         roundedRect.fill()
@@ -80,6 +80,9 @@ class PlayingCardView: UIView
 }
 
 // Extension with useful utilities
+// This is how we do constants in Swift
+// can replace the absolute numbers above with these extension values - e.g. fontSize and cornerRadius
+
 extension PlayingCardView {
     
     // Ratios that determine the card's size
@@ -87,7 +90,7 @@ extension PlayingCardView {
         static let cornerFontSizeToBoundsHeight: CGFloat = 0.085
         static let cornerRadiusToBoundsHeight: CGFloat = 0.06
         static let cornerOffsetToCornerRadius: CGFloat = 0.33
-        static let faceCardImageSizeToBoundsSize: CGFloat = 0.95
+        static let faceCardImageSizeToBoundsSize: CGFloat = 0.75
     }
     
     private var cornerRadius: CGFloat {
@@ -102,7 +105,7 @@ extension PlayingCardView {
         return bounds.size.height * SizeRatio.cornerFontSizeToBoundsHeight
     }
     
-    // Gets the string representation of the current rank
+    // Gets the string representation of the current rank based on rank
     private var rankString: String {
         switch rank {
         case 1: return "A"
@@ -115,3 +118,37 @@ extension PlayingCardView {
     }
 }
 
+// Extension
+extension CGRect {
+    
+    var leftHalf: CGRect {
+        return CGRect(x: minX, y: minY, width: width/2, height: height)
+    }
+    
+    var rightHalf: CGRect {
+        return CGRect(x: minX, y: minY, width: width/2, height: height)
+    }
+    
+    func inset(by size: CGSize) -> CGRect {
+        return insetBy(dx: size.width, dy: size.height)
+    }
+    
+    func sized(to size: CGSize) -> CGRect {
+        return CGRect(origin: origin, size: size)
+    }
+    
+    func zoom(by scale: CGFloat) -> CGRect {
+        let newWidth = width * scale
+        let newHeight = height * scale
+        return insetBy(dx: (width - newWidth)/2, dy: (height - newHeight) / 2)
+    }
+    
+}
+
+// Extension
+extension CGPoint {
+    // Get a new point with the given offset
+    func offsetBy(dx: CGFloat, dy: CGFloat) -> CGPoint {
+        return CGPoint(x: x + dx, y: y + dy)
+    }
+}
