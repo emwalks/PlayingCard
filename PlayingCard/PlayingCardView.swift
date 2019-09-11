@@ -15,18 +15,31 @@ import UIKit
 
 class PlayingCardView: UIView
 {
-    
+
     // here we have defined rank and suit in a different way to the model - which is fine
     // it is the controllers job to interpret!
     // the didSet updates the drawing (setNeedsDisplay) and the subviews (setNeedsLayout) when these vars get updated
     
-    //by adding IBInspectable 
+    //by adding IBInspectable
     
     @IBInspectable var rank: Int = 11 { didSet {setNeedsDisplay(); setNeedsLayout() } }
     
     @IBInspectable var suit: String = "♥️" { didSet {setNeedsDisplay(); setNeedsLayout() } }
     
     @IBInspectable var isFaceUp: Bool = true { didSet {setNeedsDisplay(); setNeedsLayout() } }
+    
+    var faceCardScale: CGFloat = SizeRatio.faceCardImageSizeToBoundsSize { didSet { setNeedsDisplay()} }
+    
+    // this function is going to handle my pinch gesture. rescales the faceCardImages
+    @objc func adjustFaceCardScale(byHandlingGestureRecognizedBy recognizer: UIPinchGestureRecognizer) {
+        switch recognizer.state {
+        case .changed, .ended:
+            faceCardScale *= recognizer.scale
+            //this resets the scale - incremental changes
+            recognizer.scale = 1.0
+        default: break
+        }
+    }
     
     private func centeredAttributedString(_ string: String, fontSize: CGFloat) -> NSAttributedString {
         
@@ -164,7 +177,7 @@ class PlayingCardView: UIView
             //this will grab the image in assets by name and zooms based on parameters
             //the addition of in: Bundle(for: self.classForCoder), compatibleWith: traitCollection) means you can see the assets image in main.storyboard
             if let faceCardImage = UIImage(named: rankString+suit, in: Bundle(for: self.classForCoder), compatibleWith: traitCollection) {
-                faceCardImage.draw(in: bounds.zoom(by: SizeRatio.faceCardImageSizeToBoundsSize))
+                faceCardImage.draw(in: bounds.zoom(by: faceCardScale))
             } else {
                 drawPips()
             }
@@ -190,7 +203,7 @@ extension PlayingCardView {
         static let cornerFontSizeToBoundsHeight: CGFloat = 0.085
         static let cornerRadiusToBoundsHeight: CGFloat = 0.06
         static let cornerOffsetToCornerRadius: CGFloat = 0.33
-        static let faceCardImageSizeToBoundsSize: CGFloat = 0.65
+        static let faceCardImageSizeToBoundsSize: CGFloat = 0.60
     }
     
     private var cornerRadius: CGFloat {
