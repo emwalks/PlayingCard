@@ -8,14 +8,25 @@
 
 import UIKit
 
+// by adding @IBDesignable we can see the PlayingCardView in the interface builder (main stroyboard) - it will be complied in the interface builder
+// note however the images in assets will not be viewable if they are UIImage(named: ) need to add extra in: Bundle(for: self.classForCoder), compatibleWith: traitCollection) as per below
+
+@IBDesignable
+
 class PlayingCardView: UIView
 {
+    
     // here we have defined rank and suit in a different way to the model - which is fine
     // it is the controllers job to interpret!
     // the didSet updates the drawing (setNeedsDisplay) and the subviews (setNeedsLayout) when these vars get updated
-    var rank: Int = 7 { didSet {setNeedsDisplay(); setNeedsLayout() } }
-    var suit: String = "♥️" { didSet {setNeedsDisplay(); setNeedsLayout() } }
-    var isFaceUp: Bool = false { didSet {setNeedsDisplay(); setNeedsLayout() } }
+    
+    //by adding IBInspectable 
+    
+    @IBInspectable var rank: Int = 11 { didSet {setNeedsDisplay(); setNeedsLayout() } }
+    
+    @IBInspectable var suit: String = "♥️" { didSet {setNeedsDisplay(); setNeedsLayout() } }
+    
+    @IBInspectable var isFaceUp: Bool = true { didSet {setNeedsDisplay(); setNeedsLayout() } }
     
     private func centeredAttributedString(_ string: String, fontSize: CGFloat) -> NSAttributedString {
         
@@ -151,7 +162,8 @@ class PlayingCardView: UIView
         
         if isFaceUp {
             //this will grab the image in assets by name and zooms based on parameters
-            if let faceCardImage = UIImage(named: rankString+suit) {
+            //the addition of in: Bundle(for: self.classForCoder), compatibleWith: traitCollection) means you can see the assets image in main.storyboard
+            if let faceCardImage = UIImage(named: rankString+suit, in: Bundle(for: self.classForCoder), compatibleWith: traitCollection) {
                 faceCardImage.draw(in: bounds.zoom(by: SizeRatio.faceCardImageSizeToBoundsSize))
             } else {
                 drawPips()
@@ -178,7 +190,7 @@ extension PlayingCardView {
         static let cornerFontSizeToBoundsHeight: CGFloat = 0.085
         static let cornerRadiusToBoundsHeight: CGFloat = 0.06
         static let cornerOffsetToCornerRadius: CGFloat = 0.33
-        static let faceCardImageSizeToBoundsSize: CGFloat = 0.6
+        static let faceCardImageSizeToBoundsSize: CGFloat = 0.65
     }
     
     private var cornerRadius: CGFloat {
@@ -206,7 +218,7 @@ extension PlayingCardView {
     }
 }
 
-// Extension
+// Extension to draw pips
 extension CGRect {
     
     var leftHalf: CGRect {
@@ -233,7 +245,7 @@ extension CGRect {
     
 }
 
-// Extension
+
 extension CGPoint {
     // Get a new point with the given offset
     func offsetBy(dx: CGFloat, dy: CGFloat) -> CGPoint {
