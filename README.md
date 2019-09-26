@@ -6,7 +6,7 @@ This repo keeps track of my progress following Stanford's CS193P course (resourc
 
 ## PlayingCard
 
-### Project 2: 
+### Project 2: Drawing a Playing Card using custom views
 
 Created in Xcode 10. 
 
