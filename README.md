@@ -6,6 +6,16 @@ This repo keeps track of my progress following Stanford's CS193P course (resourc
 
 ## PlayingCard
 
-### Project 3: 
+### Project 2: 
 
-Created in Xcode 10
+Created in Xcode 10. 
+
+Techniques implemented include:
+
+- Creating custom views 
+- Drawing using Core Graphics
+- Using UIFontMetrics & UITraitCollection to scale based on accessibility settings
+- Enums & Raw Values
+- CustomStringConvertible
+- Gestures: swipe, pinch, tap
+- Affine Transforms
