@@ -19,3 +19,4 @@ Techniques implemented include:
 - CustomStringConvertible
 - Gestures: swipe, pinch, tap
 - Affine Transforms
+- Flip animation (UIView.transition)
